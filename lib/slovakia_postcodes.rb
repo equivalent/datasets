@@ -26,6 +26,6 @@ module SlovakiaPostcodes
     #
     #    binding.irb
 
-    File.write('./joined_postalcodes_sk.json', locations.to_json)
+    File.write('./joined_postalcodes_sk.json', JSON.pretty_generate(locations))
   end
 end

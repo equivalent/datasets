@@ -1,11 +1,15 @@
 Original repo https://github.com/OpenDataSk/datasets
 
-`master` is up to date with origin `OpenDataSk/datasets` `master`
+[master](https://github.com/equivalent/datasets/tree/master) is up to date with origin `OpenDataSk/datasets` [master](https://github.com/OpenDataSk/datasets)
 
-my repo branch `join_script` contains a script that will join `municipalities_sk.json` and
+my [fork repo](https://github.com/equivalent/datasets) branch `join_script` contains a script that will join `municipalities_sk.json` and
 `postalcodecoordinates_sk.json` together
 
-just run `ruby run.rb` it will generate `joined_postalcodes_sk.json`
+just run `ruby run.rb` it will generate `joined.json` which is
+gitignored.
+
+I'm then manually renaming the file to `generated.json`
+which is commited and pushed.
 
 --------------------------------
 

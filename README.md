@@ -1,3 +1,17 @@
+Original repo https://github.com/OpenDataSk/datasets
+
+`master` is up to date with origin `OpenDataSk/datasets` `master`
+
+my repo branch `join_script` contains a script that will join `municipalities_sk.json` and
+`postalcodecoordinates_sk.json` together
+
+just run `ruby run.rb` it will generate `joined_postalcodes_sk.json`
+
+--------------------------------
+
+original Readme:
+
+
 # Various assorted datasets
 
 Various assorted datasets from or about Slovakia.
